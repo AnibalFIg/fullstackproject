@@ -3,6 +3,8 @@
 source 'https://rubygems.org'
 ruby '2.5.0'
 
+gem 'rails-erd', group: :development
+
 gem 'active_model_serializers', '~> 0.10.6'
 gem 'bcrypt', '~> 3.1.11'
 gem 'pg', '~> 0.21'
