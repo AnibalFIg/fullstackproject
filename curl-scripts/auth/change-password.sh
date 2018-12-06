@@ -6,6 +6,8 @@ curl "http://localhost:4741/change-password" \
   --header "Authorization: Token token=${TOKEN}" \
   --header "Content-Type: application/json" \
   --data '{
+    "credentials": {
+      "email": "'"${EMAIL}"'",
     "passwords": {
       "old": "'"${OLDPW}"'",
       "new": "'"${NEWPW}"'"
